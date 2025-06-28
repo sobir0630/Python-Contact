@@ -23,7 +23,7 @@ def print_status(status: str):
         'fileerror': colored("kontaktlar topilmadi", 'red'),
         'delete': colored("Mofaqiyatli uchirlidi", 'red'),
         'update': colored("Movaqiyatli yangilandi", 'blue'),
-        'updateerror': colored("Kutilmagan xatolik", 'red'),
+        'updateeror': colored("Kutilmagan xatolik", 'red'),
         'alphaerror': colored("Berilgan ruyhatni tanlang!!!", 'red')
     }
 

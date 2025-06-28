@@ -74,7 +74,7 @@ def update_contact(contacts):
     if found:
         print_status("update")
     else:
-        print_status("updateerror")
+        print_status("updateeror")
 
 
 
