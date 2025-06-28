@@ -34,7 +34,7 @@ def print_contact(contact: dict):
     print(f"{contact['first_name']} {contact['last_name']}, {contact['phone']}, {contact['group']}")
 
 def print_all_contact(contacts: list[dict]):
-    print("ALl Contacts")
+    print("Contacts")
     for contact in contacts:
         print_contact(contact)
 
