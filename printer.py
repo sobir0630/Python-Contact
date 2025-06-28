@@ -17,8 +17,14 @@ def print_menu():
 
 def print_status(status: str):
     status_data = {
+        'allerror': colored("Ro'yxat hali bo'sh", 'red'),
         'error': colored("xatolik yuz berdi", 'red'),
-        'success': colored("muvaffasiyatli bajarildi", 'green'),
+        'success': colored("muvaffasiyatli bajarildi", 'yellow'),
+        'fileerror': colored("kontaktlar topilmadi", 'red'),
+        'delete': colored("Mofaqiyatli uchirlidi", 'red'),
+        'update': colored("Movaqiyatli yangilandi", 'blue'),
+        'updateerror': colored("Kutilmagan xatolik", 'red'),
+        'alphaerror': colored("Berilgan ruyhatni tanlang!!!", 'red')
     }
 
     print(status_data[status])
